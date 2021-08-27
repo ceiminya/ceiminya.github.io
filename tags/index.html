@@ -35,7 +35,7 @@
     <!-- meta -->
 
 
-<title>归档：2021/8 | 玖雒ちゃん/ceiminya&#39;s blog</title>
+<title>tags | 玖雒ちゃん/ceiminya&#39;s blog</title>
 
 
 
@@ -44,10 +44,12 @@
     <!-- OpenGraph -->
  
     <meta property="og:type" content="website">
-<meta property="og:title" content="玖雒ちゃん&#x2F;ceiminya&#39;s blog">
-<meta property="og:url" content="https://ceiminya.me/archives/2021/08/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="https://ceiminya.me/tags/index.html">
 <meta property="og:site_name" content="玖雒ちゃん&#x2F;ceiminya&#39;s blog">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-27T15:59:46.000Z">
+<meta property="article:modified_time" content="2021-08-27T16:00:10.272Z">
 <meta property="article:author" content="ceiminya">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@ceiminya">
@@ -154,40 +156,25 @@
     </div>
 
             
-<main class='main'>
+
     
-		
-    <div class="post-list">
-        
+        <main class="main tagscloud">
             
-                <div class='post-entry content-card'>
-                    <div class="post-entry__header"></div>
-<div class="post-entry__content">
-    <h2 class="post-entry__title">
-        Hello World
-    </h2>
-    
-        <p>
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you ...
-        </p>
-    
-</div>
-<div class="post-entry__meta">
-    <a href="/archives/2021/08/" class="post-meta__date button">文章创建日期2021-08-26</a>
-    
- 
-</div>
-<div class="post-entry__tags"></div> 
-<a href="/2021/08/26/hello-world/" class="post-entry__link">Hello World</a>
-                </div>
-            
-        
-    </div>
+        </main>
+        <style>
+            .tagscloud a {
+                margin-right: 1em;
+                border-bottom: 1px solid #ACB3C2;
+                line-height: 65px;
+                white-space: nowrap;
+            }
+            .tagscloud a:hover {
+                border-bottom: 2px solid #454D5D;
+                text-decoration: none;
+            }
+        </style>
     
 
-
-	
-</main>
 
             <footer class="footer">
      
@@ -372,7 +359,7 @@
                 if ('false' === 'true') {
                     var viewCtn = document.querySelector('#leancloud_container_page_pv');
                     if (viewCtn || enableIncr) {
-                        var target = decodeURI('/archives/2021/08/index.html');
+                        var target = decodeURI('/tags/index.html');
                         var viewGetter = getRecord(Counter, target).then((record) => {
                             incrArr.push(buildIncrement(record.objectId))
                             if (viewCtn) {
