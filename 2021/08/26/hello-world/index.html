@@ -263,11 +263,11 @@
     <h4>评论</h4>
     
     
-    <div id="disqus_thread">您所在的地区可能无法访问 Disqus 评论系统，请切换网络环境再尝试。</div>
+    
+    
+    
+    <div id="gitalk-container"></div>
 
-    
-    
-    
     
     
     
@@ -579,25 +579,31 @@
     
 
     
+    
+    
+
+    
+    
+    
     <script>
         function loadComment() {
             let e, i;
-            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js',
+            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js',
             document.body.appendChild(e);
             e.onload = () => {
-                new DisqusJS({
-                    shortname: 'ceiminya',
-                    siteName: '玖雒ちゃん/ceiminya&#39;s blog',
-                    api: 'https://disqus.ceiminya.workers.dev/',
-                    apikey: 'WdkBMooP7l2qESkqS7GxubSB6fOl3vgV4pcduGvtlHU0iOPSZc6FOd9bQUF8mR2n',
+                var gitalk = new Gitalk({
+                    clientID: '231c6be7000a17cc8739',
+                    clientSecret: '1a7589c6ec9742b49234fa114e16c6306891f826',
+                    repo: 'Gitalk',
+                    owner: 'ceiminya',
                     admin: 'ceiminya',
-                    identifier: '2021/08/26/hello-world/',
-                    url: 'https://ceiminya.me/2021/08/26/hello-world/',
-                    nesting: '4'
+                    id: window.location.pathname,
+                    distractionFreeMode: false
                 });
+                gitalk.render('gitalk-container');
             };
             (i = document.createElement("link")).rel = "stylesheet",
-            i.href = 'https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css',
+            i.href = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css',
             document.head.appendChild(i);
         }
     
@@ -620,12 +626,6 @@
         }, 1);
     </script>
 
-    
-    
-
-    
-    
-    
     
     
 
