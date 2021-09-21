@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://ceiminya.me/about/index.html</loc>
+    
+    <lastmod>2021-09-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/whisper/index.html</loc>
+    
+    <lastmod>2021-09-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/links.html</loc>
+    
+    <lastmod>2021-09-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/2021/08/26/hello-world/</loc>
+    
+    <lastmod>2021-09-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/categories/index.html</loc>
+    
+    <lastmod>2021-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/tags/index.html</loc>
+    
+    <lastmod>2021-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/search/index.html</loc>
+    
+    <lastmod>2021-08-27</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://ceiminya.me/</loc>
+    <lastmod>2021-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+</urlset>
