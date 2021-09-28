@@ -4,7 +4,14 @@
   <url>
     <loc>https://ceiminya.me/about/index.html</loc>
     
-    <lastmod>2021-09-18</lastmod>
+    <lastmod>2021-09-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/2021/08/26/hello-world/</loc>
+    
+    <lastmod>2021-09-28</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://ceiminya.me/links.html</loc>
     
     <lastmod>2021-09-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ceiminya.me/2021/08/26/hello-world/</loc>
-    
-    <lastmod>2021-09-16</lastmod>
     
   </url>
   
@@ -53,7 +53,7 @@
 
   <url>
     <loc>https://ceiminya.me/</loc>
-    <lastmod>2021-09-21</lastmod>
+    <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
