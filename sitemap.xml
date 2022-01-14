@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ceiminya.me/about/index.html</loc>
+    <loc>https://ceiminya.me/2022/01/14/IOS%E8%AE%BE%E5%A4%87%E4%B8%8D%E6%8B%94SIM%E5%8D%A1%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E5%9B%BD%E9%99%85%E7%89%88%E6%8A%96%E9%9F%B3%EF%BC%88tikotok%EF%BC%89%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2022-01-14</lastmod>
     
   </url>
   
   <url>
     <loc>https://ceiminya.me/2021/08/26/hello-world/</loc>
+    
+    <lastmod>2022-01-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ceiminya.me/about/index.html</loc>
     
     <lastmod>2021-09-28</lastmod>
     
@@ -53,7 +60,7 @@
 
   <url>
     <loc>https://ceiminya.me/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2022-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
