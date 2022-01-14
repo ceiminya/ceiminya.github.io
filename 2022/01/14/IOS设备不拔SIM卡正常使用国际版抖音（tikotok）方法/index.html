@@ -364,15 +364,15 @@
     
     
     
-    <div id="minivaline_container" class="minivaline_thread"></div>
+    
+    
+    
+    
+    
+    
+    
+    <div id="tcomment" class="twikoo_thread"></div>
 
-    
-    
-    
-    
-    
-    
-    
 
 
     </div>
@@ -682,18 +682,30 @@
     
 
     
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
     <script>
         function loadComment() {
-            let e, i;
-            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/minivaline@2.7.5/dist/MiniValine.min.js',
+            let e;
+            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/twikoo@0.3.2/dist/twikoo.all.min.js',
             document.body.appendChild(e);
             e.onload = () => {
-                var minivalineConfig = {"appId":"O3NsDiVVAftl7YhVTfXOqSTa-MdYXbMMI","appKey":"W0k00SK2fpdJgRzz808sqWR4","mode":"xCss","placeholder":"欢迎留下评论^_^","pathname":null,"adminEmailMd5":null,"master":null,"friends":null,"tagMeta":null,"math":true,"md":true,"lang":"zh-CN","emoticonUrl":null,"NoRecordIP":false,"maxNest":6,"pageSize":6,"enableQQ":false,"visitor":false,"serverURLs":null};
-                minivalineConfig.el = '#minivaline_container';
-                for (var i in minivalineConfig) {
-                    if (minivalineConfig[i] === null) delete minivalineConfig[i];
-                }
-                new MiniValine(minivalineConfig);
+                twikoo.init({
+                    envId: 'bitwarden-6gi2y7v004fac330',
+                    el: '#tcomment'
+                });
             };
         }
     
@@ -716,20 +728,6 @@
         }, 1);
     </script>
 
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-    
 
 
 
